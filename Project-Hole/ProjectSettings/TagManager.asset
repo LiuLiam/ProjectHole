@@ -13,11 +13,11 @@ TagManager:
   - UI
   - 
   - 
-  - 
-  - 
-  - 
-  - 
-  - 
+  - Ground
+  - GroundHole
+  - Obstacles
+  - ShaderHole
+  - ShaderHoleMask
   - 
   - 
   - 
