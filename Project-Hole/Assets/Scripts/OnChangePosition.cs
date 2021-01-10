@@ -9,6 +9,7 @@ public class OnChangePosition : MonoBehaviour
     public PolygonCollider2D ground2DCollider;
     public MeshCollider generatedMeshCollider;
     public float initialScale = 0.5f;
+    public float increaseMultiplier = 2f;
     public Collider groundCollider;
     Mesh generatedMesh;
 
@@ -23,7 +24,7 @@ public class OnChangePosition : MonoBehaviour
     public IEnumerator ScaleHole()
     {
         Vector3 startScale = transform.localScale;
-        Vector3 endScale = startScale * 2;
+        Vector3 endScale = startScale * increaseMultiplier;
 
         float t = 0;
 
